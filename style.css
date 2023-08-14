@@ -114,7 +114,7 @@
        /* Add styles to the label that should stay in place */
         .linkedin-form .box .stay-label {
           top: 20px;
-          left: 40px;
+          left: 4px;
           position: absolute;
           font-size: 16px;
           transition: all 0.3s ease; 
