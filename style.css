@@ -1,0 +1,218 @@
+       *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         
+       }
+       
+       body{
+         background: #fff;
+         height: 100vh;
+       }
+       
+       body .container{
+         position: fixed;
+         height: 100%;
+         width: 100%;
+       }
+       
+       .container .linkedIn{
+         color: #1c5db6;
+         display: flex;
+         align-items: center;
+         font-size: 25px;
+         font-weight: 600;
+         margin-left: 15px;
+         margin-top: 20px;
+         text-transform: capitalize;
+       }
+       
+       .linkedIn img{
+         width: 20px;
+         margin-left: 5px;
+       }
+       
+       .linkedin-form{
+         width: 90%;
+         margin-left: 30px;
+         padding-bottom: 30px;
+         border-bottom: 1px solid grey;
+         position: relative;
+         margin-bottom: 50px;
+       }
+       
+       .linkedin-form h4{
+         margin-left: 2px;
+         margin-top: 40px;
+         font-weight: 400;
+         font-size: 2.5rem;
+         color: #000000;
+         letter-spacing: -1px;
+       }
+       
+       .linkedin-form .sign{
+         font-size: 16px;
+         font-weight: 600;
+         color: #1c5db6;
+         margin-bottom: 30px;
+         margin-left: 2px;
+       }
+       
+       .linkedin-form .sign span{
+         color: #333333;
+       }
+       
+       .box{
+         margin-bottom: 25px;
+       }
+       
+       
+       .linkedin-form .box{
+         position: relative;
+         width: 100%;
+       }
+       
+       .linkedin-form .box input{
+         width: 100%;
+         margin-top: 40px;
+         padding: 10px 20px;
+         border: 0;
+         border-bottom: 2px solid #333333;
+         outline: none;
+         font-size: 18px;
+         
+       }
+       
+       .linkedin-form input:hover{
+         border-bottom: 3px solid #1c5db6;
+       }
+       
+       .box label{
+         position: absolute;
+         top: 60%;
+         left: 4px;
+         font-size: 18px;
+         color: grey;
+         text-transform: capitalize;
+       }
+       
+       .box img{
+         position: absolute;
+         top: 60%;
+         right: 6px;
+         color: #000000;
+         cursor: pointer;
+       }
+       
+       .linkedin-form .box input:focus~label{
+         top: 20px;
+         left: 4px;
+         position: absolute;
+         font-size: 16px;
+       }
+       
+       /* Add styles to the label that should stay in place */
+        .linkedin-form .box .stay-label {
+          top: 20px;
+          left: 40px;
+          position: absolute;
+          font-size: 16px;
+          transition: all 0.3s ease; 
+        }
+        
+        .fp{
+          margin-left: 3px;
+          margin-top: -20px;
+          padding: 4px 5px;
+          text-decoration: none;
+          color: #1c5db6;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+       
+       .rm{
+         color: grey;
+         margin-left: 4px;
+         display: flex;
+         align-items: center;
+         font-weight: 500;
+         margin-bottom: 10px;
+         text-transform: capitalize;
+       }
+       
+       .rm input[type="checkbox"]{
+         margin-right: 5px;
+         color: #000;
+         
+       }
+       
+       .rm span{
+         color: #1c5db6;
+         font-weight: 600;
+         margin-left: 5px;
+       }
+       
+       .linkedin-form .btn{
+         display: block;
+         text-align: center;
+         width: 100%;
+         padding: 15px 10px;
+         border-radius: 50px;
+         margin-top: 20px;
+         font-size: 18px;
+         
+         font-weight: 500;
+       }
+       
+       .linkedin-form .blue{
+         background: #1c5db6;
+         color: #fff;
+         border: none;
+         
+       }
+       
+       .linkedin-form .blue:hover{
+         background: #152943;
+       }
+       
+       .linkedin-form em{
+         text-decoration: none;
+         background: #fff;
+         padding: 3px 20px;
+         position: absolute;
+         bottom: -10px;
+         left: 45%;
+       }
+       
+       .container .btnall .btn{
+         display: block;
+         text-align: center;
+         width: 90%;
+         padding: 10px 10px;
+         border-radius: 50px;
+         margin-top: 20px;
+         font-size: 18px;
+         margin-left: 30px;
+         font-weight: 400;
+         border: 1px solid #333;
+         background: #fff;
+         color: #000;
+         
+       }
+       
+       .btnall .btn .fab{
+         font-size: 20px;
+         margin-right: 5px;
+       }
+       
+       .btnall .btn .fa-facebook{
+         color: #1c5db6;
+       }
+       
+       .btnall .btn .fa-google{
+         color: #804646;
+       }
+       
+       .btnall .btn:hover{
+         background: #f4f4f4;
+       }
